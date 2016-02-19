@@ -1,0 +1,37 @@
+body {
+  background-color: #293034;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 4px;
+}
+
+table {
+  margin: auto;
+  width: 65%;
+  padding: 1px;
+  border-radius: 5px;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+tr {
+  background-color: white;
+}
+
+td {
+  width: 90px;
+  border: 2px solid #333;
+  height: 80px;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+td:hover {
+  background-color: #333;
+  transition: .5s;
+  opacity: .5;
+  color: white;
+}
